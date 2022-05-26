@@ -1106,12 +1106,12 @@
     ramoops: ramoops@0xCBE00000 {
         compatible = "ramoops";
         reg = <0 0xCBE00000 0 0x00400000>;
-        record-size =  <0x40000>; //256x1024
-        console-size = <0x40000>;
-        ftrace-size =  <0x40000>;
-        pmsg-size=         <0x200000>;
+        record-size =  <0x91100>; //256x1024
+        console-size = <0x91100>;
+        ftrace-size =  <0x91100>;
+        pmsg-size=         <0x91100>;
         devinfo-size=  <0x01000>;
-        ecc-size=          <0x0>;
+        ecc-size=          <16>;
    };
  
    mtp_mem: mtp_mem@ac300000 {

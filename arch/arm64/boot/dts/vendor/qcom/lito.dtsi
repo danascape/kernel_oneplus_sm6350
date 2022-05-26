@@ -534,7 +534,7 @@
 	};
 
 	chosen {
-		bootargs = "rcupdate.rcu_expedited=1 rcu_nocbs=0-7 earlycon=msm_geni_serial,0x888000 kpti=off";
+		bootargs = "printk.devkmsg=on ramoops.ecc=1 rcupdate.rcu_expedited=1 rcu_nocbs=0-7 earlycon=msm_geni_serial,0x888000 kpti=off";
 	};
 
 	soc: soc { };
